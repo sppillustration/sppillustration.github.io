@@ -177,6 +177,12 @@ img {
     flex-basis: 47.5%;
 }
 
+@media screen and (min-width:450px) {
+    .lavoro{
+        flex-basis: 30%;
+    } 
+}
+
 .grande{
     flex-basis: 100%;
 }
@@ -188,7 +194,7 @@ img {
 }
 
 .grande .contenitore-immagine-lavoro{
-    padding-top: 75%;
+    padding-top: 60%;
 }
 
 .immagine-lavoro{
@@ -203,13 +209,6 @@ img {
 
 }
 
-.lavoro:first-child {
-    flex-basis: 100%;
-}
-
-.lavoro:first-child .contenitore-immagine-lavoro{
-    padding-top: 75%;
-}
 
 .lavoro h3 {
    font-family: 'Source Sans Pro';
